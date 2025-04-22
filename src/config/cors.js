@@ -1,5 +1,5 @@
 export const corsOptions = {
-    origin: process.env.PORT_CORS || 'http://localhost:5173',
-    credentials: true,
-    optionsSuccessStatus: 200
-  };
+  origin: process.env.PORT_CORS || "https://dr-integradora.vercel.app",
+  credentials: true,
+  optionsSuccessStatus: 200,
+};

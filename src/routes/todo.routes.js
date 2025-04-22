@@ -13,7 +13,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 const router = Router();
 
-router.use(protect);
+// router.use(protect);
 
 router.route("/").get(getTodos).post(upload.single("image"), createTodo);
 
